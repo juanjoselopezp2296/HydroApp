@@ -1,0 +1,89 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+header{
+    background-color: #001f3f;
+    color: #FFFFFF;
+    padding: 3px;
+    text-align: center;
+}
+
+form{
+    width: 100%;
+}
+
+main{
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: center; 
+}
+
+main > img{
+    width: 650px; 
+    height: 350px;
+}
+
+i{
+    margin-right: 2px;
+    font-size: 25px;
+}
+
+section{
+    width: 800px;
+    text-align: center;
+    margin-left: 25%;
+    font-size: 25px;
+    margin-bottom: 88px;
+}
+
+section  button, label, input{
+    margin-top: 10px;
+}
+
+section  input{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+section  p{
+    font-style: italic;
+}
+
+section  button{
+    
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 85px;
+    padding-right: 85px;
+    text-align: center;
+    border: 0px;
+    background-color: #001f3f;
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:hover{
+    background-color: #03a9f4;
+}
+
+#errorLoad{
+    color: red;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #001f3f;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}

@@ -1,0 +1,50 @@
+<!--Student Number: 101393718-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Lopez</title>
+    <script src="js/app.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Slab:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <h1>Assignment #2 - Hydro Consumption</h1>
+        <h3>Juan Lopez / 101393718 / MADS 4007 / 2022-09-18</h3>
+    </header>
+    <main>
+        <img src="assets/hydro.jpg" alt="Hydro">
+    </main>
+    <section>        
+            <h2>Input - Calculation Hydro Consumption</h2>
+            <form action="" onsubmit="return false;">
+                <p id="errorLoad"></p>
+                <label for="cNameI"><i class="bi bi-person-fill"></i> Customer's name: </label>
+                <input type="text" name="cNameI" id="cNameI" placeholder="Enter Customer's name" autocapitalize="" autocomplete="given-name" required>
+                        
+                <label for="cEmailI"><i class="bi bi-envelope-fill"></i> Customer's email address: </label>
+                <input type="email" name="cEmailI" id="cEmailI" placeholder="Enter Customer's email" required>
+                        
+                <label for="cOnPeakI"><i class="bi bi-123"></i> On-Peak Consumption: </label>
+                <input type="number" name="cOnPeakI" id="cOnPeakI" pattern="[0-9]+([\.,][0-9]+)?" step="0.01" placeholder="Enter On-Peak" required>
+                        
+                <label for="cOffPeakI"><i class="bi bi-123"></i> Off-Peak Consumption: </label>
+                <input type="number" name="cOffPeakI" id="cOffPeakI" pattern="[0-9]+([\.,][0-9]+)?" step="0.01" placeholder="Enter Off-Peak" required>
+                        
+                <label for="cMidPeakI"><i class="bi bi-123"></i> Mid-Peak Consumption: </label>
+                <input type="number" name="cMidPeakI" id="cMidPeakI" pattern="[0-9]+([\.,][0-9]+)?" step="0.01" placeholder="Enter Mid-Peak" required>
+                <button id="btnCalculate" type="submit">Calcular</button>
+            </form>
+    </section>
+    <footer>
+        <p>°101393718</p>
+    </footer>
+</body>
+</html>
